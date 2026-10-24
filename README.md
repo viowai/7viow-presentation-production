@@ -15,7 +15,21 @@
 - 处理返回稿和作者手改：识别真实当前原件，完成局部修改、章节整合或不同读者版本，并保留未受影响的内容。
 - 完成交付检查：核对全稿内容、视觉关系、可编辑对象、目标应用表现、阅读导出和后续编辑来源。
 
-## 开始使用
+## 快速安装
+
+把下面一句话发给具备终端与文件权限的 Agent：
+
+> 请从 https://github.com/viowai/7viow-presentation-production 安装 alpha0.1-preview 的 7viow-presentation-production，按仓库 INSTALL.md 选择当前宿主的方式，默认仅用于当前项目，并确认入口、全部参考、模板和许可文件完整可读。
+
+也可在目标项目终端执行。以下以 Codex 为例，需要 **Node.js 22.20.0 或更高版本**：
+
+```bash
+npx -y skills@1.7.4 add viowai/7viow-presentation-production --skill 7viow-presentation-production --agent codex --copy -y
+```
+
+Claude Code 将 `codex` 换成 `claude-code`，Cursor 换成 `cursor`。固定预览版本安装、其他宿主、确认发现、更新与移除见 [完整安装说明](INSTALL.md)。不使用终端时，在下方选择完整下载包。
+
+## 下载与开始使用
 
 从 [alpha0.1-preview 下载页](https://github.com/viowai/7viow-presentation-production/releases/tag/alpha0.1-preview) 选择包。具体宿主路径、上传方式及条件见 [宿主与使用方式](HOSTS.md)。
 
@@ -49,7 +63,7 @@
 ## 已知限制
 
 - 这是非常早期的实验预览，尚未建立跨宿主稳定性和质量提升的充分证据。
-- 已有本地原始材料生成、连续修改和 PowerPoint 原生验收的运行记录；这不等于每个宿主都经过安装、自动发现、导入或完整制作测试。
+- 已有本地原始材料生成、连续修改和 PowerPoint 原生验收的运行记录；项目级安装器复制已在隔离目录验证，原生宿主的自动发现、账号导入和完整制作仍未逐一测试。
 - 本 Skill 提供工作方法。实际 PPTX 制作、文件回收、应用编辑与 PDF 导出需要宿主具备相应工具。工具不可用时，应明确具体缺口。
 - 尚未完成可支持改善结论的同条件 A/B 对照。平台账户、额度、字体和文件工具会影响实际结果。
 - 外部上传、安装、登录、支付和公开发布依照实际用户授权执行。更新由维护者手动发版，包内没有自动更新或后台任务。

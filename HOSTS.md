@@ -1,5 +1,7 @@
 # 宿主、安装与使用方式
 
+快捷安装、固定版本、更新与移除请先看 [完整安装说明](INSTALL.md)。本页用于查具体客户端的目录和上传入口。
+
 入口资料复核日期：2026-10-24。按实际宿主、账户许可与客户端版本选择包格式。以下说明不表示已在全部宿主安装或运行验证。
 
 ## 阅读方法
@@ -34,7 +36,8 @@ Skill 技术名统一为 `7viow-presentation-production`。文件夹方式的目
 | 字节 TRAE IDE | 项目 `.trae/skills/`；CN 用户目录 `~/.trae-cn/skills/`；设置中可导入 ZIP／MD。`.agents/skills` 需启用相应开关 | 目录或 ZIP；设置调整由用户明确授权。国际版目录需按实际客户端核实，不照抄 CN 全局路径。[官方技能](https://docs.trae.cn/ide_skills) |
 | TraeWork | 插件市场 → 技能 → 上传技能，要求根级SKILL.md的ZIP／.skill；本地与云端运行环境分别生效 | 使用 `-root.zip`。本地任务需桌面版，不能用本地安装证明云端可见。[官方Work Skills](https://docs.trae.cn/work_skills) |
 | 豆包工作 | 未核实当前账户可用的自定义Skill上传合同 | 暂提供完整单文件方法版。不能从开放平台介绍推断可直接导入某种ZIP，现有官方PPT能力与自定义Skill导入分别判断。[官方开放平台](https://open.doubao.com/) |
-| 阿里 Qoder／Qoder CN | IDE／CLI：项目 `.qoder/skills/`、用户 `~/.qoder/skills/`；Qoder 新客户端：Extensions → Skills → Add Skills → Upload Skill，支持ZIP／MD | 根据实际客户端选择入口，不同时装多个同名副本。[IDE／CLI](https://docs.qoder.com/extensions/skills)、[客户端](https://docs.qoder.com/qoder/skills) |
+| 阿里 Qoder | IDE／CLI：项目 `.qoder/skills/`、用户 `~/.qoder/skills/`；Qoder 新客户端：Extensions → Skills → Add Skills → Upload Skill，支持ZIP／MD | 根据实际客户端选择入口。[IDE／CLI](https://docs.qoder.com/extensions/skills)、[客户端](https://docs.qoder.com/qoder/skills) |
+| 阿里 Qoder CN | 官方项目 `.lingma/skills/`、用户 `~/.lingma/skills/` | 完整目录复制；Skills CLI 1.7.4 的 `qoder-cn` 路径与官方不同，详见 [安装说明](INSTALL.md)。[官方路径](https://docs.qoder.cn/user-guide/skills) |
 | 阿里 QwenWork | 中文文档提供 `~/.qwenwork/skills/`；企业管理端支持技能ZIP，单顶层同名目录、≤10 MB，并受个人上传/组织策略约束 | 完整目录或 ZIP；账户权限、地域与版本分别确认，不更改组织策略。[本地 Skills](https://www.alibabacloud.com/help/zh/qwenwork/skills)、[企业技能管理](https://www.alibabacloud.com/help/en/qwenwork/skills-management) |
 | 智谱 ZCode | 用户 `~/.zcode/skills/<name>/SKILL.md`；设置 Skills 页面刷新并启用；项目目录见官方QA | 目录包；未执行刷新/启用。[官方 Skills](https://zcode.z.ai/en/docs/skill)、[项目QA](https://zcode.z.ai/en/docs/qa) |
 
@@ -46,6 +49,6 @@ Skill 技术名统一为 `7viow-presentation-production`。文件夹方式的目
 
 ## 需要实测才能升级的声明
 
-每个具体宿主都要验证一次：完整资源可读→真实新材料生成→实际原生文件回收→局部修改保留→目标阅读导出。在未运行的宿主，状态统一是“官方入口/方法覆盖，运行未测试”。当前没有任何宿主被声明为完成安装验收。
+每个具体宿主都要验证一次：完整资源可读→真实新材料生成→实际原生文件回收→局部修改保留→目标阅读导出。在未运行的宿主，状态统一是“官方入口/方法覆盖，运行未测试”。项目级 Skills CLI 的发现和完整目录复制已在隔离项目验证；尚未逐一完成各原生客户端的启用、自动发现和任务验收。
 
 本说明不支持跨产品自动同步、自动更新或代表用户公开提交。文档入口日后变化时，由维护者手动触发核查和重新打包。
