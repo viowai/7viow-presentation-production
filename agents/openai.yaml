@@ -1,0 +1,4 @@
+interface:
+  display_name: "7viow PPT Production · Preview"
+  short_description: "Early experimental workflow for presentation production"
+  default_prompt: "Use $7viow-presentation-production to continue this presentation at its current confirmed stage, present the actual review material, and complete the authorized production or revision."
