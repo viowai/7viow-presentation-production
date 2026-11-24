@@ -8,6 +8,8 @@
 
 作者与维护者：Viow。系列品牌：7viow。
 
+在官网查看[PPT 制作](https://viow.ai/open-source/7viow-presentation-production/)的使用说明。
+
 ## 可以用来做什么
 
 - 从原始资料组织新演示：确认用途、结构、页级内容与制作方案，再进入原生文件制作。
